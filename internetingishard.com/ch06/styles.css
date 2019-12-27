@@ -1,0 +1,86 @@
+.page {
+    width: 600px;
+    margin 0 auto;
+}
+
+.synopsis { /* this can be replaced with .page > p:first-of-type */
+    color: #7e8184; /* light gray */
+    font-style: italic;
+}
+
+.synopsis em {
+    font-style: normal;
+}
+
+.button.link, .button:visited {
+    display: block;
+    text-decoration: none;
+
+    color: #fff;
+    background-color: #5995da; /* blue */
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5d6053; /* dark gray */
+    border-radius: 5px;
+
+    width: 200px;
+    margin: 20px auto;
+}
+
+.button.hover, button:visited:hover {
+    color: #fff;
+    background-color: #76aeed; /* light blue */
+}
+
+.button.active, button:visited:active {
+    color: #fff;
+    background-color: #59995da; /* blue */
+}
+
+.call-to-action:link, .call-to-action:visited {
+    font-style: italic;
+    background-color: #eeb75a; /* yellow */
+}
+
+.call-to-action:hover, .call-to-action:visited:hover {
+    background-color: #f5cf8e; /* light yellow */
+}
+
+.call-to-action:active, .call-to-action:visited:active {
+    background-color: #eeb75a; /* yellow */
+}
+
+#button-2 {
+    color: #5d6063; /* dark grey */
+}
+
+a:link { /* a link the user has never visited */
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited { /* a link the user has visited before */
+    color: purple;
+}
+
+a:hover { /* a link the user's nouse over it */
+    color: aqua;
+    text-decoration: underline;
+}
+
+a:active { /* a link that's beeing pressed down by a mouse (or finger) */
+    color: red;
+}
+
+a:visited:hover {
+    color: orange;
+}
+
+a:visited:active {
+    color: red;
+}
+
+p:last-of-type {
+    margin-bottom: 50px;
+}
